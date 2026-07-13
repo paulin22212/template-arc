@@ -1,6 +1,9 @@
 import { useState, useEffect, useRef } from "react";
 import { motion } from "motion/react";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
+gsap.registerPlugin(ScrollTrigger);
 export default function App() {
   const [activeLang, setActiveLang] = useState<"IT" | "EN">("IT");
   const [menuOpen, setMenuOpen] = useState(false);
