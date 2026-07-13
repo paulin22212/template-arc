@@ -1,0 +1,6 @@
+{
+  "name": "Tecnoarreda Hero",
+  "description": "Exact replication of the Tecnoarreda Studio di Architettura hero section design with elegant typography and static black background.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
